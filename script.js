@@ -1,30 +1,5 @@
 //your JS code here. If required.
-// const dropDown = document.querySelector("#colorSelect");
-// const btn = document.getElementsByTagName("input")[0];
-// btn.addEventListener("click",() => {
-// let option = document.getElementsByTagName("option");
-// 	for(let i=0;i<option.length;i++)
-// 		if(option[i].innerText === dropDown.value)
-// 			return dropDown.removeChild(option[i]);
-// });
-
-// const dropDown = document.querySelector("#colorSelect");
-// function removeElement(){
-// 	let cv = dropDown.value;
-// 	dropDown.remove(cv)	
-// }
-// function removeElement(){
-// 	let ele = document.getElementById("colorSelect");
-// 	ele.remove(ele.selectedindex);
-// }
-
-
-let btn=document.getElementsByTagName("input")[0];
-let colorSelect=document.querySelector("#colorSelect");
-
-	let call = function() {
-    colorSelect.remove(colorSelect.selectedIndex);
-}
-
-
-btn.addEventListener("click",call);
+ function remove() {  
+            var x = document.getElementById("colorSelect");  
+            x.remove(x.selectedIndex);  
+         } 
